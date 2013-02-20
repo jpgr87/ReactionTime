@@ -46,7 +46,7 @@ ReactionTime::ReactionTime(QWidget *parent) :
     m_paused = false;
     m_totalTrials = 10;
 
-    m_updateTimer.start();
+    m_updateTimer.start(30);
 }
 
 ReactionTime::~ReactionTime()
